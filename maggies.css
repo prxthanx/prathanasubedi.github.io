@@ -4,3 +4,8 @@
 @media(max-width:900px){.maggies-feature{padding:24px}.maggies-heading{grid-template-columns:1fr;gap:20px}.maggies-gallery{gap:14px}.maggies-caption h3{font-size:16px}}
 @media(max-width:600px){.maggies-feature{padding:18px;margin-bottom:40px}.maggies-gallery{grid-template-columns:1fr;gap:24px}.maggies-image{aspect-ratio:auto;padding:12px}.maggies-image img{height:auto;max-height:650px}.maggies-image>span{position:static;display:table;margin:12px 0 0 auto}.maggies-footer{flex-direction:column;gap:8px}.maggies-heading h2{font-size:38px}.maggies-caption h3{font-size:20px}}
 @media(prefers-reduced-motion:reduce){.maggies-image img{transition:none}}
+
+/* Additional static ad highlights */
+.static-highlights .maggies-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.static-highlights .maggies-image{aspect-ratio:4/5}
+@media(max-width:600px){.static-highlights .maggies-gallery{grid-template-columns:1fr}.static-highlights .maggies-image{aspect-ratio:auto}}
